@@ -4,6 +4,7 @@ h1 {
 	font-weight: 800;
 }
 img {
+	width: normal;
 	border-radius: 10;
 }
 p {
