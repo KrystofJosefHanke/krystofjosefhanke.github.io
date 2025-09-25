@@ -1,11 +1,35 @@
 h1 {
-	color: brown;
+	color:chocolate;
 	font-size: 40px;
 	font-weight: 800;
+	text-align: center;
+	text-shadow: 1px 1px 1px saddlebrown;
+}
+h2 {
+	color:sienna;
+	text-align: center;
+}
+h3 {
+	color:saddlebrown;
+	text-align: center;
+}
+body {
+    background-color: rgb(255, 200, 140);
+}
+
+.container {
+    background-color:antiquewhite;
+    max-width: 750px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35)
+                     0px 5px 15px;
+    margin: 100px auto;
+    padding: 7px 30px;
 }
 img {
 	width: normal;
-	border-radius: 10;
+	border-radius: 15px 45px;
+	box-shadow: 1.5px 1.5px 1.5px rgb(255, 200, 140);
 }
 p {
 	font-family: "Times New Roman", Arial, Helvetica;
