@@ -54,7 +54,7 @@ body {
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35)
                      0px 5px 15px;
-    margin: 100px auto;
+    margin: 25px auto 100px;
     padding: 7px 30px;
 }
 img {
@@ -64,4 +64,49 @@ img {
 }
 p {
 	font-family: "Times New Roman", Arial, Helvetica;
+}
+
+.big {
+    font-size: 3rem;
+    display: none;
+}
+
+.middle {
+    font-size: 2rem;
+    display: none;
+}
+
+.small {
+    font-size: 1rem;
+    display: none;
+}
+
+@media(max-height: 500px) {
+    #landscape {
+        display: block;
+    }
+}
+
+@media(max-width:500px) {
+    #smartphone {
+        display: block;
+    }
+}
+
+@media(min-width: 501px) and (max-width:768px) {
+    #tablet {
+        display: block;
+    }
+}
+
+@media(min-width: 769px) and (max-width:1200px) {
+    #normal {
+        display: block;
+    }
+}
+
+@media(min-width: 1201px) {
+    #widescreen {
+        display: block;
+    }
 }
