@@ -89,7 +89,7 @@ p {
 
 @media(max-width:500px) {
     #smartphone {
-        display: block;
+        display: none;
     }
 }
 
