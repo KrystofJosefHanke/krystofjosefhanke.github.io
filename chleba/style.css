@@ -78,7 +78,13 @@ p {
 }
 
 @media(max-width:500px) {
-    #smartphone {
+    #smartphone1 {
+        display: none;
+    }
+    #smartphone2 {
+        display: none;
+    }
+    #smartphone3 {
         display: none;
     }
 }
